@@ -3,20 +3,183 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi bitácora</title>
+  <title>Diario del huerto</title>
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-
-  <!-- CABECERA: cambia el lema, el título y la descripción -->
   <header class="cabecera">
     <span class="lema">Bitácora de TIC II</span>
     <h1>Diario del huerto</h1>
-    <p>Huerto del insituto, lo que plantamos, vemos crecer y aprendemos.</p>
+    <p>Lo que plantamos, lo que crece y lo que aprendemos en el huerto del instituto.</p>
   </header>
-
-  <!-- TIMELINE: cada post es un <article class="post">. El más reciente, arriba -->
   <main class="timeline">
+    <!-- HILO: el 1/3 va abajo del todo de los tres, porque se publicó primero -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-12-02">2 dic.</time>
+          <span class="tipo">Texto</span>
+        </p>
+      </header>
+      <p>3/3 Ahora toca esperar unas 8 semanas. Si todo va bien, en febrero recogemos las primeras lechugas para la cafetería 🥬 <a class="etiqueta" href="#">#HuertoEscolar</a></p>
+      <footer class="post-pie">
+        <p>💬 1 · 🔁 2 · ❤️ 9</p>
+      </footer>
+    </article>
+
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-12-02">2 dic.</time>
+          <span class="tipo">Texto</span>
+        </p>
+      </header>
+      <p>2/3 Primero aireamos la tierra y añadimos compost del instituto. Después plantamos 30 lechugas a 25 cm unas de otras y regamos poco, porque en invierno la tierra tarda en secarse.</p>
+      <footer class="post-pie">
+        <p>💬 0 · 🔁 1 · ❤️ 7</p>
+      </footer>
+    </article>
+
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-12-02">2 dic.</time>
+          <span class="tipo">Texto</span>
+        </p>
+      </header>
+      <p>1/3 🧵 Hoy hemos plantado las lechugas de invierno en el bancal grande. Os contamos cómo lo hemos hecho:</p>
+      <footer class="post-pie">
+        <p>💬 2 · 🔁 4 · ❤️ 15</p>
+      </footer>
+    </article>
+
+    <!-- MÚSICA -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-12-01">1 dic.</time>
+          <span class="tipo">Música</span>
+        </p>
+      </header>
+      <audio src="audio/lluvia-en-el-huerto.mp3" controls></audio>
+      <p>Hemos grabado la lluvia sobre el invernadero esta mañana. Ideal para estudiar 🎧 <a class="etiqueta" href="#">#SonidosDelHuerto</a></p>
+      <footer class="post-pie">
+        <p>💬 0 · 🔁 1 · ❤️ 6</p>
+      </footer>
+    </article>
+
+    <!-- VÍDEO -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-11-30">30 nov.</time>
+          <span class="tipo">Vídeo</span>
+        </p>
+      </header>
+      <iframe src="https://www.youtube.com/embed/CODIGO-DEL-VIDEO" title="Cómo hacer compost en casa paso a paso"></iframe>
+      <p>¿No sabéis qué hacer con las peladuras de fruta? Este vídeo explica muy bien cómo hacer compost en casa. <a class="etiqueta" href="#">#Compost</a></p>
+      <footer class="post-pie">
+        <p>💬 1 · 🔁 3 · ❤️ 11</p>
+      </footer>
+    </article>
+
+    <!-- DIÁLOGO -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-11-29">29 nov.</time>
+          <span class="tipo">Diálogo</span>
+        </p>
+      </header>
+      <div class="dialogo">
+        <p><strong>Alumna de 1.º:</strong> ¿Por qué plantamos ajos ahora, si hace frío?</p>
+        <p><strong>Profe de Biología:</strong> Porque necesitan el frío del invierno para formar bien la cabeza.</p>
+        <p><strong>Alumna de 1.º:</strong> O sea, que el frío les viene bien 🧄</p>
+      </div>
+      <footer class="post-pie">
+        <p>💬 0 · 🔁 2 · ❤️ 8</p>
+      </footer>
+    </article>
+
+    <!-- ENLACE -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-11-28">28 nov.</time>
+          <span class="tipo">Enlace</span>
+        </p>
+      </header>
+      <p>Calendario de siembra mes a mes para huertos de clima frío. Lo usamos para planificar el bancal 👉 <a href="https://ejemplo.org/calendario-siembra">ver el calendario de siembra</a> <a class="etiqueta" href="#">#HuertoEscolar</a></p>
+      <footer class="post-pie">
+        <p>💬 0 · 🔁 5 · ❤️ 12</p>
+      </footer>
+    </article>
+
+    <!-- FOTO AJENA CON LICENCIA -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-11-27">27 nov.</time>
+        </p>
+      </header>
+      <figure class="post-imagen">
+        <img src="img/lechugas.jpg" alt="Hileras de lechugas verdes y moradas en un huerto, con la tierra húmeda">
+        <span class="tipo">Foto</span>
+        <figcaption>Foto: «[título]», de [autor], en <a href="https://commons.wikimedia.org/wiki/File:[...]">Wikimedia Commons</a> ([licencia, p. ej. CC BY-SA 4.0]).</figcaption>
+      </figure>
+      <p>Así queremos que esté nuestro bancal en febrero. ¡Objetivo marcado! 🎯 <a class="etiqueta" href="#">#HuertoEscolar</a></p>
+      <footer class="post-pie">
+        <p>💬 1 · 🔁 2 · ❤️ 14</p>
+      </footer>
+    </article>
+
+    <!-- FOTO PROPIA -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-11-27">27 nov.</time>
+        </p>
+      </header>
+      <figure class="post-imagen">
+        <img src="img/bancal.jpg" alt="Bancal de madera recién preparado, con la tierra removida y una regadera al lado">
+        <span class="tipo">Foto</span>
+        <figcaption>Foto propia.</figcaption>
+      </figure>
+      <p>Bancal listo para la siembra de invierno. Solo nos ha costado dos recreos 💪 <a class="etiqueta" href="#">#HuertoEscolar</a></p>
+      <footer class="post-pie">
+        <p>💬 0 · 🔁 1 · ❤️ 10</p>
+      </footer>
+    </article>
+
+    <!-- CITA -->
+    <article class="post">
+      <header class="post-cabecera">
+        <h2>Diario del huerto</h2>
+        <p class="meta">
+          @huerto_ies · <time datetime="2026-11-26">26 nov.</time>
+          <span class="tipo">Cita</span>
+        </p>
+      </header>
+      <blockquote>
+        <p>«Quien siembra vientos recoge tempestades».</p>
+        <footer>— Refrán popular</footer>
+      </blockquote>
+      <p>Por suerte, nosotros sembramos lechugas 😄 <a class="etiqueta" href="#">#Refranes</a></p>
+      <footer class="post-pie">
+        <p>💬 3 · 🔁 1 · ❤️ 13</p>
+      </footer>
+    </article>
+
+    <!-- TEXTO: el primer post de la bitácora, abajo del todo -->
     <article class="post">
       <header class="post-cabecera">
         <h2>Diario del huerto</h2>
@@ -25,8 +188,7 @@
           <span class="tipo">Texto</span>
         </p>
       </header>
-      <p>Empieza el diario del huerto del instituto. Aquí contaremos qué plantamos, cómo crece y qué aprendemos por el camino.
-        <a class="etiqueta" href="#">#HuertoEscolar</a></p>
+      <p>🌱 Empieza el diario del huerto del instituto. Aquí contaremos qué plantamos, cómo crece y qué aprendemos por el camino. <a class="etiqueta" href="#">#HuertoEscolar</a></p>
       <footer class="post-pie">
         <p>💬 0 · 🔁 0 · ❤️ 0</p>
       </footer>
